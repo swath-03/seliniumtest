@@ -3,13 +3,14 @@
   <groupId>maventesting</groupId>
   <artifactId>myfirstmvn</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-
+<!--testing --> 
 <dependencies>
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
     <version>4.13</version>
     <scope>test</scope>
+    
 
 </dependency>
 <dependency>
