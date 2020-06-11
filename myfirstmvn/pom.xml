@@ -41,6 +41,25 @@
                 <artifactId>maven-surefile-plugin</artifactId>
                 <version>2.18.1</version>
                 <configuration>
+                <parallel>methods</parallel>
+
+<threadCount>10</threadCount>
+<includes>
+
+<include>**/Test*.java</include>
+
+<include>**/Test.java</include>
+
+<include>**/TestCase.java</include>
+
+</includes>
+
+<excludes>
+
+<exclude>**/*Abstract*Test.java</exclude>
+
+</excludes>
+
                 <suiteXmlFiles> 
                  <suiteXmlFile>testjen.xml</suiteXmlFile>
                 </suiteXmlFiles>
