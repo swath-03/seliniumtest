@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-10T23:35:34Z" name="myfirstmvn" finished-at="2020-06-10T23:36:26Z" duration-ms="52313">
+    <groups>
+    </groups>
+    <test started-at="2020-06-10T23:35:34Z" name="Test" finished-at="2020-06-10T23:36:26Z" duration-ms="52313">
+      <class name="Testngpgm11.test101">
+        <test-method signature="f()[pri:0, instance:Testngpgm11.test101@55634720]" started-at="2020-06-11T00:35:34Z" name="f" finished-at="2020-06-11T00:36:26Z" duration-ms="52289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Testngpgm11.test101 -->
+    </test> <!-- Test -->
+  </suite> <!-- myfirstmvn -->
+</testng-results>
